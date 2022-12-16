@@ -11,5 +11,5 @@ function updateClock(){
     if(mySec < 10){mySec = "0"+mySec}
 
     let myTime = `${myHours}:${myMinutes}:${mySec}`
-    document.getElementById('clock').innerText=myTime;
+    document.getElementById('clock-time').innerText=myTime;
 }

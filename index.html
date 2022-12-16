@@ -6,9 +6,31 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script defer src="main.js"></script>
+    <style>
+        #clock{
+            /*border: 1px solid red;*/
+            height: 150px;
+            width: 300px;
+            color: white;
+            background-color: green;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        #clock #clock-time{
+            margin-top: 0;
+            font-size: 40px;
+        }
+    </style>
     <title>Digital Clock</title>
+
 </head>
 <body>
-    <div id="clock">00:00:00</div>
+    <div id="clock">
+        <h3>DIGITAL CLOCK</h3>
+        <p id="clock-time">00:00:00</p>
+    </div>
 </body>
 </html>
